@@ -1,5 +1,5 @@
-import {Sorter} from './sorter';
-import {NumbersCollection} from './numbersCollection';
+import {Sorter} from './Sorter';
+import {NumbersCollection} from './NumbersCollection';
 import {CharactersCollection} from './CharactersCollection';
 
 const numbersCollection = new NumbersCollection([1000000, 3, -5, -18, 0]);
