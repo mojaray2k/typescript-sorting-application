@@ -1,0 +1,29 @@
+{
+  "name": "typescript-sorting-application",
+  "version": "1.0.0",
+  "description": "An application that is built with Typescript to sort collections of data.",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojaray2k/typescript-sorting-application.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Node"
+  ],
+  "author": "Amen Ra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojaray2k/typescript-sorting-application/issues"
+  },
+  "homepage": "https://github.com/mojaray2k/typescript-sorting-application#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
